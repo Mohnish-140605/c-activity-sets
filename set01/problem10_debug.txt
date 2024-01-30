@@ -1,0 +1,23 @@
+ gdb .\problem10.exe                                                              
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\mohni\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01\problem10.exe...done.
+(gdb) r
+Starting program: C:\Users\mohni\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01/.\problem10.exe
+[New Thread 22232.0x2cc]
+[New Thread 22232.0x56f8]
+Enter the first string
+1
+Enter the second string
+2
+result is 2
+2 is greater than 1
+[Inferior 1 (process 22232) exited normally]
+(gdb) q
