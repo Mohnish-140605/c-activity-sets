@@ -1,0 +1,21 @@
+gdb .\problem11.exe                                                              
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\mohni\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01\problem11.exe...done.
+(gdb) r
+Starting program: C:\Users\mohni\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01/.\problem11.exe
+[New Thread 23224.0x3aec]
+[New Thread 23224.0x3c20]
+Enter the 1st complex number
+Enter the real part 20
+Enter the imaginary part 30i
+Enter the 2nd complex number
+Enter the real partEnter the imaginary part(20.000000+30.000000i)+(0.000000+234364022872419800000000000000000.000000i)=(20.000000+234364022872419800000000000000000.000000i) [Inferior 1 (process 23224) exited normally]
+(gdb) q
