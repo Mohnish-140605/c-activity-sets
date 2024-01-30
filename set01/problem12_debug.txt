@@ -1,0 +1,28 @@
+gdb .\problem12.exe                                                              
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\mohni\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01\problem12.exe...done.
+(gdb) r
+Starting program: C:\Users\mohni\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01/.\problem12.exe
+[New Thread 22924.0x1e34]
+[New Thread 22924.0x32bc]
+Enter the number of complex numbers (n): 6
+Enter complex number 1:
+Enter the real part: 20
+Enter the imaginary part: 20i
+Enter complex number 2:
+Enter the real part: Enter the imaginary part: Enter complex number 3:
+Enter the real part: Enter the imaginary part: Enter complex number 4:
+Enter the real part: Enter the imaginary part: Enter complex number 5:
+Enter the real part: Enter the imaginary part: Enter complex number 6:
+Enter the real part: Enter the imaginary part: Sum of 6 complex numbers:
+20.000000 + 20.000000i + 0.000000 + 234364022872419800000000000000000.000000i + 0.000000 + 234364022872419800000000000000000.000000i + 0.000000 + 234364022872419800000000000000000.000000i + 0.000000 + 234364022872419800000000000000000.000000i + 0.000000 + 234364022872419800000000000000000.000000i = 20.000000 + 1171820114362099000000000000000000.000000i
+[Inferior 1 (process 22924) exited normally]
+(gdb) q
